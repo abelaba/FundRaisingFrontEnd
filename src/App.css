@@ -1,0 +1,409 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  body{
+  background:#fff;  
+  }
+  
+  .container{
+    display: block;
+  }
+  
+  .header{
+    height:200px;
+    background:url(./assets/images/cool-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  .menu,.menu-profile{
+    float:right;
+    width:450px;
+    background-color: white;
+    margin:10px;
+    margin-top: 60px;
+    margin-right:50px;
+    font-size: 20px;   
+  }
+  .menu a , .menu-profile a{
+    color:black;
+    text-decoration: none;
+  }
+  .menu li, .menu-profile li{
+    list-style: none;
+    display: inline-block;
+    padding:25px;
+    font-weight: bolder;
+  }
+  .menu-profile{
+    width:550px;
+  }
+  
+  .display{
+    width:350px;
+    height:auto;
+    padding:25px;
+    background: rgb(255, 253, 253);
+    margin-top:-110px;
+    margin-left:150px;
+    position:absolute;
+    border-bottom:5px solid rgb(226, 84, 18);
+  }
+  .display h3{
+    text-align:center;
+  }
+  .display p{
+    padding:10px;
+    text-align:justify;
+    font-size:20px;
+  }
+  
+  .target{
+    background: rgb(226, 84, 18);
+    color:white;
+    padding:25px;
+  }
+  
+  .content{
+    padding:25px;
+    width:100%;
+    height:70vh;
+    display:grid;
+    grid-template-columns:700px  500px;
+  }
+  
+  .info-holder{
+    grid-column:1;
+    width:100%;
+    height: 400px;
+    background: url(./assets/images/team.jpg);
+    background-size: cover;
+    background-position: center;
+    border:none;
+  }
+  
+  .about{
+    grid-column:2;
+    width:100%;
+    padding-left:50px;
+    display: grid;
+    place-items: center;
+  }
+  .about h2{
+    padding:5px;
+    text-align:center;
+  }
+  .about p{
+    padding:10px;
+  }
+  .about p{
+    width:80%;
+     
+    text-align: justify;
+  }
+  
+  .overlay{
+  width:100%;
+  height:100%;
+  background: rgba(252, 116, 38, 0.226);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color:white;
+  }
+  
+  .footer{
+    margin-top:5px;
+    width:100%;
+    height:30vh;
+    display: grid;
+    place-items:center;
+  }
+  .socials{
+    padding:20px;
+    font-size: 20px;
+  }
+  .footer a{
+    color:black;
+    text-decoration:none;
+  }
+  .footer li{
+    list-style:none;
+    display: inline;
+    margin:4px;
+  }
+  
+  .login,.signup{
+    margin:auto;
+    width:400px;
+    height:350px;
+    padding:50px;
+    border-radius:15px;
+    background: white;
+  }
+  
+  .addfundraise{
+    width:400px;
+    background: white;
+    margin:auto;
+    
+  }
+  .addfundraise h3{
+    padding:10px;
+    text-align:center;
+  }
+  .fundraise{
+    width:400px;
+    background: rgb(236, 234, 234);
+    padding:25px;
+    margin:10px;
+    border-radius: 15px;
+  }
+  
+  .signup{
+    height:auto;
+    margin-top:-25px;
+  }
+  
+  .login h3,.signup h3{
+    text-align: center;
+    padding:10px;
+  }
+  
+  .txt-input{
+     background: #eee;
+     width:350px;
+     padding:25px;
+     display: block;
+     margin:10px;
+     border:none;
+     margin-left:0;
+  }
+  
+  .submit-btn,.donate-btn{
+    border:none;
+    width:350px;
+    padding:15px;
+    color:white;
+    background: rgb(226, 84, 18);
+    cursor: pointer;
+    border-radius:5px;
+    font-size:20px;
+  }
+  
+  .donate-btn{
+  width:150px;
+  margin-left:25%;
+  margin-top:10px;
+  }
+  
+  .fundraise h3,h2{
+    padding:15px;
+  }
+  .fundraise p{
+    padding:10px;
+    text-align:justify;
+  }
+  
+  .donate{
+    width:450px;
+    background: white;
+    padding:25px;
+    margin:auto;
+    border-radius: 15px;
+  }
+  
+  .txt-new{
+    display: inline-block;
+    padding:10px;
+    background: #eee;
+    border:none;
+  }
+  
+  .ulcenter{
+    padding-left:50px;
+    margin-top: 20px;
+  }
+  
+  .funds{
+    display:grid;
+    grid-template-columns:400px 400px 400px;
+    grid-gap:10px;
+    padding-left:60px;
+  }
+  
+  .fas{
+    float:right;
+  }
+  
+  .stop{
+    background-color: red;
+  }
+  
+  .transaction-view td{
+  padding:20px;
+  }
+  
+  .center{
+    text-align:center;
+  }
+  
+  .trs{
+    display: grid;
+    grid-template-columns:450px 450px;
+    margin-left:50px;
+  }
+  
+  .menu-bar{
+    color:white;
+    display:none;
+  }
+  
+  .header h2{
+    color:white;
+    border-left: 3px solid rgb(226, 84, 18);
+    position: absolute;
+    margin-top:20px;
+    margin-left:250px;
+  }
+  
+  .approve{
+    background-color: green;
+  }
+  
+  .progress-bar{
+    font-size:15px;
+    border-bottom:2px solid  green;
+    color:black;
+  }
+  
+  .admin-header{
+    width:auto;
+  }
+  
+  @media screen and (max-width:1050px){
+  
+      .content{
+          display: block;
+          padding:0;
+      }
+      .menu{
+          display:none;
+      }
+      .menu-profile{
+          display: none;
+      }
+      .display{
+          position: relative;
+          margin:0;
+      }
+      .about{
+          padding:0;
+      }
+      .menu{
+          margin:0;
+      }
+      .footer{
+          margin-top:20px; 
+      }
+      .floating{
+          margin-left:10px;
+      }
+      .info-holder{
+          margin-top:20px;
+          margin-left:0;
+          width:100%;
+          height:40vh;
+      }
+      .header{
+          height:70px;
+      }
+      .header h2{
+          color:white;
+          position: absolute;
+          margin-top:5px;
+          margin-left: 0;
+      }
+      .display{
+          width:100%;
+      }
+      .login{
+          margin-left:0;
+          width: 100%;
+          padding:10px;
+      }
+      .signup{
+          margin-left:0;
+          padding:10px;
+          width:100%;
+      }
+      .menu-bar{
+          display: block;
+          font-size: 25px;
+          position: absolute;
+          right: 20px;
+          top: 20px;
+          z-index: 1000;
+      }
+      .menu-header{
+          display:block;
+          height:auto;
+          width:auto;
+          position: absolute;
+          top:50px;
+          right:5px;
+          z-index: 1000px;
+      }
+      .menu-header-profile{
+          display:block;
+          height:auto;
+          width:auto;
+          position: absolute;
+          top:5px;
+          right:-40px;
+          z-index: 1000px;
+      }
+      .menu-header li ,.menu li, .menu-header-profile li{
+          display: block;
+          padding:20px;
+      }
+      .menu{
+          height:auto;
+      }
+      .funds{
+          display: block;
+          padding:0;
+      }
+      .fundraise{
+          width:95%;
+      }
+      .donate{
+          width:100%;
+          padding: 10px;
+          margin-top:50px;
+      }
+      .addfundraise{
+          width:100%;
+          padding-left:0px;
+          margin-top:50px;
+      }
+      .trs{
+          display: block;
+          padding:0px;
+          margin:0;
+      }
+      .transaction-view{
+          width:100%;
+      }
+  }
